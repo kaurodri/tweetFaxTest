@@ -13,7 +13,7 @@ fs.readFile(filePath, 'utf8', (err, data) => {
 
     let txt = campo[0];
     let keyword = campo[1];
-    let base = campo[2]
+    let base = null
     const database = {
         "user4": campo[3].split("YKY")
     };

@@ -13,4 +13,4 @@ def result(output):
     }
     return mapping.get(output.lower(), None)
 
-print( result(output) )
+print(result(output))
